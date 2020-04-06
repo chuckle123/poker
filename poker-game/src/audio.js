@@ -1,8 +1,8 @@
-import twoTapsSoundMP3 from '../sounds/two-taps.mp3'
-import chipsSoundMP3 from '../sounds/chips.mp3'
-import beepMP3 from '../sounds/beep.mp3'
-import foldMP3 from '../sounds/fold.mp3'
-import cardPlaceMP3 from '../sounds/card-place.mp3'
+import twoTapsSoundMP3 from './sounds/two-taps.mp3'
+import chipsSoundMP3 from './sounds/chips.mp3'
+import beepMP3 from './sounds/beep.mp3'
+import foldMP3 from './sounds/fold.mp3'
+import cardPlaceMP3 from './sounds/card-place.mp3'
 import { VOLUME_LEVELS } from './constants'
 import { Howl, Howler } from 'howler'
 

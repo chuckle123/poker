@@ -91,7 +91,7 @@ export default class App extends Component {
   }
 
   componentDidMount () {
-    this.socket = SocketIO({
+    this.socket = SocketIO('localhost:3001', {
       transports: ['websocket'],
       query: { gameID: window.location.pathname.split('/')[2] }
     })

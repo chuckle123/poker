@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "Utils";
+	src: url("https://poker-now.s3.amazonaws.com/d9bce0bd35174255e96c-Utils.woff") format("woff");
+}
+
+.u {
+	line-height: 1;
+}
+
+.u:before {
+	font-family: Utils !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.u-up:before {
+	content: "\0xF0C7";
+}
+.u-down:before {
+	content: "\0xF14A";
+}
+.u-config:before {
+	content: "\0xF040";
+}
+.u-fullscreen:before {
+	content: "\0xF0B2";
+}
+.u-times-circle:before {
+	content: "\0xF057";
+}
+.u-commenting:before {
+	content: "\0xF27B";
+}
+.u-key:before {
+	content: "\0xF084";
+}
+.u-trophy:before {
+	content: "\0xF091";
+}
+.u-refresh:before {
+	content: "\0xF021";
+}
+.u-up-rotate-arrow:before {
+	content: "\0xF2CB";
+}
+.u-down-rotate-arrow:before {
+	content: "\0xF2DE";
+}
+.u-male:before {
+	content: "\0xF183";
+}
+.u-seat:before {
+	content: "\0xF195";
+}
+.u-volume-up:before {
+	content: "\0xF028";
+}
+.u-volume-off:before {
+	content: "\0xF026";
+}
+.u-volume-med:before {
+	content: "\0xF1E0";
+}
+.u-clock:before {
+	content: "\0xF017";
+}
+.u-signin:before {
+	content: "\0xF090";
+}
+.u-signout:before {
+	content: "\0xF08B";
+}
+.u-medal:before {
+	content: "\0xF2BA";
+}
+.u-deaf:before {
+	content: "\0xF2A4";
+}
+@font-face {
+	font-family: "Suits";
+	src: url("https://poker-now.s3.amazonaws.com/ce23d3dd9c4fbbf2eb8f-Suits.woff") format("woff");
+}
+
+.su {
+	line-height: 1;
+}
+
+.su:before {
+	font-family: Suits !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.su-clubs:before {
+	content: "\0xF0C7";
+}
+.su-diamonds:before {
+	content: "\0xF14A";
+}
+.su-spades:before {
+	content: "\0xF04B";
+}
+.su-hearts:before {
+	content: "\0xF040";
+}
+
+/*# sourceMappingURL=fonts-4b0e27f31b4c15b43319.css.map*/
