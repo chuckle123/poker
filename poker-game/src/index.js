@@ -9,6 +9,8 @@ import DeviceLandscapeWarning from './components/deviceLandscapeWarning'
 import AlertProvider from './components/alertProvider'
 import { migratePreviousLocalToken } from './utils'
 
+import './style.css';
+
 migratePreviousLocalToken()
 
 const renderApp = () => {

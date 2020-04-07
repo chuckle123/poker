@@ -5,6 +5,8 @@ import { render } from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 import { migratePreviousLocalToken } from './utils'
 
+import './style.css';
+
 migratePreviousLocalToken()
 
 const renderApp = () => {

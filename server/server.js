@@ -1,5 +1,29 @@
 const io = require('socket.io')(3001);
 
+/*
+API REQUESTS
+
+POST
+/games/${this.props.game.id}/request_ingress
+/games/${this.props.gameID}/player_quit
+/games/${this.props.game.id}/approve_player
+/games/${this.props.game.id}/remove_player
+/games/${this.props.game.id}/transfer_ownership
+/games/${this.props.game.id}/${this.props.player.status === 'requestedGameIngress' ? 'approve_player' : 'update_player'
+/games/${this.props.game.id}/update_game
+/games/${this.props.gameID}/cancel_request_ingress
+/games/${this.state.data.id}/idle_heartbeat
+/new-withdraw
+/new-game
+
+GET
+/games/${this.props.gameID}/log?after_at=${options.afterAt || ''}&before_at=${options.beforeAt || ''}
+/player-infos
+/player-infos
+/my-withdraws
+*/
+
+
 io.of('/socket.io').on('connection', (socket) => {
   // console.log(socket);
 
