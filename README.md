@@ -1,6 +1,3 @@
-ssh -i "test.pem" ubuntu@ec2-52-201-150-214.compute-1.amazonaws.com
-sudo scp -i test.pem -r original ubuntu@ec2-52-201-150-214.compute-1.amazonaws.com:~
-
 this.state.data.id (gameid?)
 this.state.data.mode ['tournament', 'chips']
 this.state.data.playersRank [?ARRAY?]
